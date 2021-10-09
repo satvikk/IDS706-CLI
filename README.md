@@ -1,3 +1,5 @@
+[![Python application](https://github.com/satvikk/IDS706-CLI/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/satvikk/IDS706-CLI/actions/workflows/python-app.yml)
+
 # IDS706-CLI  
 
 # checkifup  
