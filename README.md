@@ -5,3 +5,12 @@
 # checkifup  
 
 This is a Command-Line-Interface that contains 2 commands within it. The url command checks if a url is responsive, or a website is working. The concept command checks if a concept is something that is literally above you. Feel free to submit pull requests to add more concepts which should be "up"
+
+To run through docker:
+
+```
+cd PATH/TO/IDS706-CLI
+docker build -t imagename .
+docker run imagename url http://satvikkishore.com
+docker run imagename concept stratosphere
+```
