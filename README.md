@@ -6,7 +6,22 @@
 
 This is a Command-Line-Interface that contains 2 commands within it. The url command checks if a url is responsive, or a website is working. The concept command checks if a concept is something that is literally above you. Feel free to submit pull requests to add more concepts which should be "up"
 
-To run through docker:
+Installation and running:
+```console
+$ make install
+$ make build
+$ checkifup url http://satvikkishore.com
+$ checkifup concept stratosphere
+```
+
+To pull from dockerhub:
+```console
+$ docker pull satvikk/checkifup:ciu
+$ docker run satvikk/checkifup:ciu url http://satvikkishore.com
+$ docker run satvikk/checkifup:ciu concept stratosphere
+```
+
+To build through docker:
 
 ```console
 foo:~$ cd PATH/TO/IDS706-CLI
