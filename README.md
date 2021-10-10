@@ -8,9 +8,9 @@ This is a Command-Line-Interface that contains 2 commands within it. The url com
 
 To run through docker:
 
-```
-cd PATH/TO/IDS706-CLI
-docker build -t imagename .
-docker run imagename url http://satvikkishore.com
-docker run imagename concept stratosphere
+```console
+foo:~$ cd PATH/TO/IDS706-CLI
+foo:/PATH/TO/IDS706-CLI$ docker build -t imagename .
+foo:/PATH/TO/IDS706-CLI$ docker run imagename url http://satvikkishore.com
+foo:/PATH/TO/IDS706-CLI$ docker run imagename concept stratosphere
 ```
